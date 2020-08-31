@@ -16,7 +16,7 @@ Este dataset se divide en un total de 24 columnas y 25723 filas
 
 ## **Hipótesis y comprobación**
 
-### **Limpieza de datos comunes**
+### **Limpieza de datos nulos y duplicados**
 Para empezar, en ambas hipótesis, se han importado los datos y la librería pandas.
 
 
@@ -35,7 +35,13 @@ La **hipótesis 1** se define como: *"Los ataques fatales de los tiburones blanc
 - Sobre esos datos ya filtrados, segun el interes de la hipótesis, se han agrupado los ataques "provocados" y "no provocados".
 - Se crea una gráfica para una mejor visualización.
 
-   ![Unknown-1](https://user-images.githubusercontent.com/66179117/91731912-c8412600-eba7-11ea-8768-b50882ce6cbe.png)
+   ![Unknown-1](https://user-images.githubusercontent.com/66179117/91734720-8fa34b80-ebab-11ea-9329-5d22afd4a5fc.png)
+
+-----
+
+### **Hipótesis 2**
+
+La **hipótesis 2** se define como:
 
 
 
