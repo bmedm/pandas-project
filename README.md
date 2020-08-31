@@ -26,7 +26,7 @@ Seguidamente, se ha realizado una limpieza de datos con todas las filas o column
 
 ### **Hipótesis 1**
 
-La **hipótesis 1** se define como: *"Los ataques fatales de los tiburones blancos suelen ser provocados por el ser humano"*
+La ***hipótesis 1*** se define como: *"Los ataques fatales de los tiburones blancos suelen ser provocados por el ser humano."*
 
 ¿CÓMO SE HA COMPROBADO?
 
@@ -37,11 +37,50 @@ La **hipótesis 1** se define como: *"Los ataques fatales de los tiburones blanc
 
    ![Unknown-1](https://user-images.githubusercontent.com/66179117/91734720-8fa34b80-ebab-11ea-9329-5d22afd4a5fc.png)
 
+
+(El archivo *analysis_I.ipynb* contiene el análisis de esta hipótesis explicado paso por paso)
+
+¡¡¡CONCLUSIÓN!!!
+
+
+Los ataques que han resultado fatales a lo largo de la historia, registrados como ataques de tiburones blancos no han sido provocados por el hombre. 
+
+Por lo tanto, la **hipótesis 1** que se habia propuesto **se rechaza**.
+
+
 -----
 
 ### **Hipótesis 2**
 
-La **hipótesis 2** se define como:
+La ***hipótesis 2*** se define como: *"A partir del año 2000, se han producido más del doble de ataques por tiburones a hombres que a mujeres realizando la misma actividad."*
+
+¿CÓMO SE HA COMPROBADO?
+
+- Al igual que en la hipótesis anterior, se han seleccionado las columnas necesarias. Pero en este caso tendremos en cuenta el sexo de la persona, si ha sido fatal o no el ataque, la actividad que estaban haciendo en el momento del ataque y el año.
+- Desde un primer momento, se han seleccionado sólo los ataques ocurridos desde el 2000 en adelante.
+- Posteriormente, las actividades, al estar tan dispersas se han divido en ocho categorias
+
+    <img width="146" alt="Captura de pantalla 2020-08-31 a las 17 21 50" src="https://user-images.githubusercontent.com/66179117/91736872-a13a2280-ebae-11ea-8ae4-04343fe585a2.png">
+              
+
+-   Una vez divididas, se ha comenzado a filtrar los ataques para conocer cuáles han sido ataques fatales, y se han limpiado los datos nulos.
+- Para finalizar se han agrupado los grupos por sexo y se han contado los diferentes casos para mostrarlos graficamente.
+
+  ![Unknown](https://user-images.githubusercontent.com/66179117/91737466-6a184100-ebaf-11ea-835f-7f1ff21e7235.png)
+
+
+(El archivo *analysis_II.ipynb* contiene el análisis de esta hipótesis explicado paso por paso)
+
+¡¡¡CONCLUSIÓN!!!
+
+Como se muestra en la gráfica de barras, efectivamente los ataques a hombres son mas abundantes que a mujeres mientras realizaban la misma actividad (Estudio realizado desde el año 2000). 
+
+Por lo tanto, **no hay evidencias para rechazar** la **hipótesis 2** que se habia propuesto.
+
+
+
+
+
 
 
 
