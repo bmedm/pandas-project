@@ -1,6 +1,6 @@
 # PANDAS-PROJECT
 
-Este proyecto trata sobre la limpieza y posterior análisis de unos datos obtenidos de *<https://www.kaggle.com/teajay/global-shark-attacks>*, que tratan sobre ataques de tiburones producidos a personas.
+En este proyecto se realiza la limpieza y posterior análisis de unos datos obtenidos de *<https://www.kaggle.com/teajay/global-shark-attacks>*, que tratan sobre ataques de tiburones producidos a personas.
 
 
 Para hacer dicho análisis se proponen dos hipótesis, y con los datos obtenidos, se comprobará si dichas hipótesis son verdaderas o falsas.
